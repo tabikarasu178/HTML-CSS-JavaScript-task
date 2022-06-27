@@ -1,0 +1,55 @@
+header{
+    position:absolute;
+    width:100%;
+    font-family:Roboto Mono for Powerline;
+    padding:68px 77px;
+
+}
+
+.header-inner{
+    display:flex;
+    align-items:center;
+    
+}
+
+.header-title{
+    a{
+    color:#000000;
+    font-size:38px;
+    text-transform: uppercase;
+    letter-spacing: 3.8px;
+    white-space: nowrap;
+
+    }
+}
+
+nav{
+    margin-left:20px;
+    ul{
+        display:flex;
+        li{
+            a{
+                color:gray;
+                line-height:1.2;
+                margin-right: 21px;
+                &::after{
+                    border-bottom:solid 1px black;
+                    bottom:0;
+                    border:48px;
+                    content:"";
+                    transition: all .3s ease;
+                    -webkit-transition: all .3s ease
+                
+                }
+                    &:hover {
+                            color:black;
+                            transition: all .3s ease;
+                            -webkit-transition: all .3s ease;
+                        }
+                        &:hover::after {
+                            width: 100%;
+                        }
+                }
+            }
+        }
+     }

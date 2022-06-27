@@ -1,0 +1,10 @@
+.rewritewrap{
+    text-align: center;
+}
+
+#rewriteNum{
+    display: block;
+    margin:16px 0;
+    font-size: 16px;
+    color:#000000;
+}

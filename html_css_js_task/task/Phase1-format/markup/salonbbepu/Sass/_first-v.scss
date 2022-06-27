@@ -1,0 +1,29 @@
+#first-v{
+    display: flex;
+    position:relative;
+}
+
+.first-v-catchcopy{
+    display:flex;
+    justify-content: center;
+    height:auto;
+    align-items: center;
+    position:absolute;
+
+}
+
+.first-v-textwrap{
+    font-size:38px;
+    letter-spacing: 3.8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+    .first-v-textwrap__top{
+        font-family:'ヒラギノ明朝 Pro','W3';
+        margin:296px 105px 105px 48px;
+    }
+    .first-v-textwrap__bottom{
+        font-family: 'Zapfino','Regular';
+        margin:0 97px 0 107px;
+    }
